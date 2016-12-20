@@ -1,5 +1,48 @@
+import sys
+import os
+import re
+import asyncio
+import traceback
+import requests
+import aiohttp
+import urllib.request
+import json
+import wand
+import PIL
+import copy
+import PIL.Image
+import PIL.ImageFont
+import PIL.ImageOps
+import PIL.ImageDraw
+import random
 import discord
+import subprocess
+import time
+import html
+import urbandict
+import shutil
+import magic
+import numpy as np
+import datetime
+import macintoshplus
+import linecache
+import math
+from io import BytesIO
+from io import StringIO
+from sys import argv, path
 from discord.ext import commands
+from utils import checks
+from discord.message import Message
+from discord.user import User
+from pyfiglet import figlet_format
+from wand.drawing import Drawing
+from wand.image import Image
+from wand.color import Color
+from PIL import ImageDraw
+from PIL import Image
+from gif import *
+from image import *
+from subprocess import call
 
 class magik:
     """My custom cog that does stuff!"""
