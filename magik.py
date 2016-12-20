@@ -9,6 +9,7 @@ class magik:
     @commands.command(pass_context=True, aliases=['imagemagic', 'imagemagick', 'magic', 'magick'])
     async def magik(self, ctx, *urls:str):
         """Apply magik to Image(s)\n .magik image_url or .magik image_url image_url_2"""
+        
         try:
         if len(urls) == 0 and len(ctx.message.attachments) == 0:
         await self.bot.say(":no_entry: Please input url(s), mention(s) or atachment(s).")
