@@ -37,7 +37,6 @@ from wand.image import Image
 from wand.color import Color
 from PIL import ImageDraw
 from PIL import Image
-from gif import *
 from image import *
 from subprocess import call
 
