@@ -23,7 +23,6 @@ import shutil
 import magic
 import numpy as np
 import datetime
-import macintoshplus
 import linecache
 import math
 from io import BytesIO
