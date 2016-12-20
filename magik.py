@@ -19,7 +19,6 @@ import discord
 import subprocess
 import time
 import html
-import urbandict
 import shutil
 import magic
 import numpy as np
