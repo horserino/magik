@@ -29,7 +29,6 @@ from io import BytesIO
 from io import StringIO
 from sys import argv, path
 from discord.ext import commands
-from utils import checks
 from discord.message import Message
 from discord.user import User
 from pyfiglet import figlet_format
